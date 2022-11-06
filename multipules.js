@@ -13,10 +13,10 @@ function multsOf(n, m, d) {
     return mults;
 }
 
-// var print = multsOf(10, 3, 7);
+var print = multsOf(10, 2, 5);
 
-// console.log(print);
-
+console.log(print);
+setInterval()
 // [
 //     21,  42,  63,  84,
 //    105, 126, 147, 168,

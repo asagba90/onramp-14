@@ -11,7 +11,7 @@ function classifyNumbers(arr) {
         if (num % 2 === 0) {
             classes.even.push(num);
         } else if ("number" === typeof num){
-            classes.odd.push(num);
+            classes["odd"].push(num);
         }
 
         if (num > 0 && num < 10) {
